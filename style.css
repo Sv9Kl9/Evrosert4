@@ -43,6 +43,7 @@ header{
 
 .navbar-toggler {
   color: rgb(255, 255, 255);
+  margin-right: 20px;
 }
   
 .logo-wrap{
