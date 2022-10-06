@@ -16,7 +16,7 @@ img{
 header{
   height: 100%;
   width: 100%;
-  background-image: url(img/cover1920cut.png);
+  background-image: url(img/cover2000cut.png);
   background-size: cover;
   /* overflow: hidden; */
 }
@@ -48,6 +48,13 @@ header{
 .logo-img{
 height: 60px;
 width: 60px;
+}
+
+@media (max-width:1800px){
+  header{
+    background-image: url(img/cover1920cut.png);
+    background-size: cover;
+  }
 }
 
 @media (max-width:1600px){
