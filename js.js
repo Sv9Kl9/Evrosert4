@@ -8,6 +8,7 @@ let imgOver = document.getElementById('about-img-over')
 if(screenWidth>2300){
   header.style.backgroundImage = "url('img/cover2000.png')";
   logo.style.marginLeft = '230px'
+  logo.style.marginTop = '20px'
   navBar.style.marginRight = '200px'
   imgOver.style.paddingLeft = '400px'
 }
