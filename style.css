@@ -1364,7 +1364,7 @@ form{
 }
 
 .contact-icons{
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 @media (max-width: 1300px){
@@ -1384,9 +1384,11 @@ form{
 @media (max-width: 767px){
   .contacts-header{
     font-size: 40px;
+    padding-bottom: 10px;
   }
   .contacts-description{
     font-size: 25px;
+    margin-top: 10px;
   }
   .contact-block{
     margin: 0px 0px;
