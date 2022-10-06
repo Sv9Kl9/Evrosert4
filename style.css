@@ -38,6 +38,7 @@ header{
 
 .logo-text{
   color: rgb(44, 133, 54);
+  font-size: 16px;
 }
 
 .navbar-brand{
@@ -45,8 +46,8 @@ header{
 }
 
 .logo-img{
-height: 80px;
-width: 80px;
+height: 60px;
+width: 60px;
 }
 
 @media (max-width:1600px){
@@ -147,6 +148,7 @@ width: 80px;
 .navbar-collapse{
   justify-content: right;
   margin-right: 40px;
+  padding-bottom: 20px;
 }
 
 .navbar{
@@ -185,7 +187,7 @@ width: 80px;
 .slogan-text{
   color: rgb(74, 74, 77);
   font-weight: bold;
-  margin: 20px 150px 0 220px;
+  margin: 10px 150px 0 220px;
   padding: 50px 50px 0px 50px;
 }
 
@@ -226,27 +228,27 @@ width: 80px;
 
 @media (max-width: 1700px){
   .slogan-text{
-    margin: 20px 50px 0 200px;
+    margin: 10px 50px 0 200px;
   }
 }
 
 @media (max-width: 1500px){
   .slogan-text{
-    margin: 20px 0px 0 200px;
+    margin: 10px 0px 0 200px;
   }
 }
 
 @media (max-width: 1400px){
   .slogan-text{
     padding: 0px 0px 0px 0px;
-    margin: 20px 0px 0 200px;
+    margin: 0px 0px 0 200px;
   }
 }
 
 @media (max-width: 1300px){
   .slogan-text{
     padding: 0px 50px 0px 0px;
-    margin: 50px 150px 0 170px;
+    margin: 30px 150px 0 170px;
   }
   .slogan-block{
     display: grid;
